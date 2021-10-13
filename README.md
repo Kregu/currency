@@ -34,3 +34,10 @@ Download and run:
 
 
 Try to open: [http://localhost:8080/exchangerates?currency_code=EUR](http://localhost:8080/exchangerates?currency_code=EUR)
+
+Docker
+===
+
+    docker pull kregu/currency
+    docker run -p 8080:8080 currency
+Try to open: http://localhost:8080/exchangerates?currency_code=EUR
